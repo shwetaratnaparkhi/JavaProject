@@ -7,6 +7,10 @@ import cucumber.api.java.en.When;
 
 public class StepDefinition  // ctrl+shift+o  == to import all files
 {
+	
+	/*******************feature1********************************************/
+		//this part is copied from console of feature1.feature
+	
 	@Given("^Application is up and running$")
 	public void application_is_up_and_running() throws Throwable {
 	   System.out.println("Application is fully up and running");
