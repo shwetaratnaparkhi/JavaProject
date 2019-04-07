@@ -9,10 +9,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class HandleAlters {
 	public static void main(String[] args) throws InterruptedException {
 	
-		System.setProperty("webdriver.chrome.driver", "D:\\SeleniumDrivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "E:\\Seleniumdriver\\chromedriver.exe");
 		ChromeDriver dr =new ChromeDriver();
 		dr.manage().window().maximize();
-		dr.get("file:///G:/Practice.html");
+		dr.get("E:\\Practice.html");
 		
 		JavascriptExecutor js = (JavascriptExecutor) dr;
 		WebElement ele= dr.findElement(By.tagName("button"));
@@ -22,7 +22,7 @@ public class HandleAlters {
 		System.out.println(alt.getText());
 		
 		alt.accept();
-		Thread.sleep(2000);
+		Thread.sleep(7000);
 		
 		ele.click();
 		alt.dismiss();

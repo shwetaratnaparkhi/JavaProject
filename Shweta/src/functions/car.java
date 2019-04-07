@@ -2,6 +2,7 @@ package functions;
 
 public class car
 {
+	//instance variable
 String name;
 String model;
 int wheels;
@@ -11,7 +12,7 @@ String colour;
 //cortructor help us to initialize variables
 public car(String name,String colour,int wheels,String model)
 {
-	
+	//constructor
 	this.name=name;
 	this.colour=colour;
 	this.wheels=wheels;
@@ -25,6 +26,7 @@ public car()
 
 //functions of the car
 //static function
+//constructor donot need written variable
 public static void drive()
 {
 	//car c=new car();

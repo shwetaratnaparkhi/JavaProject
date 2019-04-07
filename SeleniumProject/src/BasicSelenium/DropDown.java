@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.Select;
 public class DropDown {
 
 	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "D:\\SeleniumDrivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "E:\\Seleniumdriver\\chromedriver.exe");
 		ChromeDriver dr =new ChromeDriver();
 		dr.manage().window().maximize();
 		dr.get("http://www.newtours.demoaut.com/");
@@ -17,7 +17,7 @@ public class DropDown {
 		  Select s = new Select(dr.findElement(By.name("country"))); 
 		  s.selectByIndex(0);
 		  
-		  Thread.sleep(2000);
+		  Thread.sleep(5000);
 		  
 		// s.selectByVisibleText("INDIA"); 
 		 s.selectByValue("234");

@@ -7,10 +7,10 @@ import org.openqa.selenium.support.ui.Select;
 public class MultiSelectBox {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "D:\\SeleniumDrivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "E:\\Seleniumdriver\\chromedriver.exe");
 		ChromeDriver dr =new ChromeDriver();
 		dr.manage().window().maximize();
-		dr.get("file:///G:/Practice.html");
+		dr.get("E:\\Practice.html");
 		
 		Select sel=new Select(dr.findElement(By.tagName("select")));
 		sel.selectByIndex(1);

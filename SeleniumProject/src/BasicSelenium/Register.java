@@ -9,7 +9,7 @@ public class Register {
 
 public static void main(String[] args) {
 		
-		System.setProperty("webdriver.chrome.driver", "D:\\SeleniumDrivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "E:\\Seleniumdriver\\chromedriver.exe");
 		ChromeDriver driver =new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://www.newtours.demoaut.com/");
